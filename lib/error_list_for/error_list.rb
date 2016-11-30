@@ -8,6 +8,7 @@ module ErrorListFor
     
     
     def list
+      return nil if @errors.none?
       @errors.full_messages.to_sentence
     end
     
