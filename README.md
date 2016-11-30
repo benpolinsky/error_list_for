@@ -1,10 +1,9 @@
--- in development --
 # ErrorListFor
 
 Quick list of errors for displaying in one place.
 
 Sometimes you'd like to return errors at the top of the screen in a notice rather than around a form,
-for example if you have a particularly long form.
+for example if you have a particularly long form, or to a json api.
 
 Just a quick helper method to help with said cases.
 
